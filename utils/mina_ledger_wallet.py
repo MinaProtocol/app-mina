@@ -1203,10 +1203,7 @@ if __name__ == "__main__":
             transaction_json = json.loads(r"""{
                 "signature": "",
                 "payment": null,
-                "stake_delegation": null,
-                "create_token": null,
-                "create_token_account": null,
-                "mint_tokens": null
+                "stake_delegation": null
             }""")
 
             transaction_json["signature"] = signature
@@ -1272,10 +1269,7 @@ if __name__ == "__main__":
                     "amount": "0",
                     "valid_until": "0"
                  },
-                 "stake_delegation": null,
-                 "create_token": null,
-                 "create_token_account": null,
-                 "mint_tokens": null
+                 "stake_delegation": null
             }""")
 
             test_transaction_json["signature"] = signature
